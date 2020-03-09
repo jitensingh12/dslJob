@@ -10,6 +10,6 @@
 	    }
 	}
 	steps {
-		sh 'echo "hello"'
+		shell('echo START')
 	}
 }
