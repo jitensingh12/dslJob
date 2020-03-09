@@ -6,7 +6,7 @@
 	scm {
              git {
 		remote {
-			github('pp/test.git', 'https')
+			github('jitensingh12/jenkinfilejob.git', 'https')
 		}
 		branch('master')
 	    }
