@@ -16,7 +16,7 @@
 	}
 	steps {
 		shell('echo "START"')
-		shell('cd /var/lib/jenkins/workspace/${'currentJob'} && pwd')
+		shell('cd /var/lib/jenkins/workspace/${currentJob} && pwd')
 		shell('javac test.java')
 		shell('java test')
 	}
