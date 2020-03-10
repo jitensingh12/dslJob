@@ -5,7 +5,8 @@
 	scm {
              git {
 		remote {
-			github('jitensingh12/jenkinfilejob.git', 'https')
+			//github('jitensingh12/jenkinfilejob.git', 'https')
+			url('https://github.com/jitensingh12/jenkinfilejob.git')
 			credentials('b0f25a4f-9107-411b-85b2-ad7d4d89a6d4')
 			//git branch: 'master', credentialsId: 'b0f25a4f-9107-411b-85b2-ad7d4d89a6d4', url: 'https://github.com/jitensingh12/jenkinfilejob.git'
 		}
